@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const submitButton = document.querySelector(".alert1");
   const modal = new bootstrap.Modal(document.getElementById("exampleModal"));
-
   submitButton.addEventListener("click", function () {
     const selectValue = document.querySelector(".form-select").value;
     const modalTitle = document.querySelector(".modal-title");
