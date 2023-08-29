@@ -25,41 +25,48 @@
     <div class="container">
       <div>
         <div class="w-100 mt-3 flex">
-          <!-- <div class="user-details">
-            <p><strong>Name:</strong> <span id="username"></span></p>
-            <p><strong>Email:</strong> <span id="email"></span></p>
-          </div> -->
-          <div style="display: inline-block; margin-top: 10px">
-            <image src="./logo.jpg" style="width: 374px; height: 200px" />
-          </div>
-          <div class="col cnt" style="display: flex; flex-direction: column">
-            <div>
-              <h5>You want to get more information about this product ?</h5>
-            </div>
-            <div
-              style="
-                width: 300px;
-                display: flex;
-                flex-direction: column;
-                padding: 10px;
-              "
-            >
-              <select
-                class="form-select form-select-sm"
-                aria-label=".form-select-sm example"
-              >
-                <option value="1">Yes</option>
-                <option value="2">No</option>
-              </select>
-              <div style="display: flex; flex-direction: row-reverse">
-                <button
-                  type="button"
-                  class="btn btn-secondary mt-3 b1 alert1"
-                  data-bs-toggle="modal"
-                  data-bs-target="#exampleModal"
-                >
-                  Submit
-                </button>
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  src="./logo.jpg"
+                  class="img-fluid rounded-start"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Product Name</h5>
+                  <p class="card-text">
+                    You want more information about this product ?
+                  </p>
+                  <div
+                    style="
+                      width: 300px;
+                      display: flex;
+                      flex-direction: column;
+                      padding: 10px;
+                    "
+                  >
+                    <select
+                      class="form-select form-select-sm"
+                      aria-label=".form-select-sm example"
+                    >
+                      <option value="1">Yes</option>
+                      <option value="2">No</option>
+                    </select>
+                    <div style="display: flex; flex-direction: row-reverse">
+                      <button
+                        type="button"
+                        class="btn btn-secondary mt-3 b1 alert1"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
